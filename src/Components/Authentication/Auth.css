@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 1.5em;
+    background: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.auth_page{
+    width: 90%;
+    margin: 10px auto;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+form{
+    width: 90%;
+    margin: 110px auto 0 auto;
+}
+
+form input{
+    width: 100%;
+    padding: 12px 20px;
+    border-radius: 4px;
+    margin-top: 20px;
+    background: white;
+}
+
+form input:focus{
+    outline: none;
+}
+
+form button{
+    width: 100%;
+    color: white;
+    background: #800080FF;
+    text-align: center;
+    border: none;
+    border-radius: 6px;
+    padding: 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+form .forgot__password{
+    width: 100%;
+    text-align: end;
+}
+
+form .forgot__password a{
+    text-align: end;
+    font-size: 0.9rem;
+    color: white;
+}
+
+.login__options{
+    width: 70%;
+    margin: 20px auto;
+}
+
+.login__options .option{
+    width: 100%;
+    padding: 20px;
+    border: 2px solid #800080FF;
+    color: white;
+    font-size: 1rem;
+    background-color: transparent;
+    font-weight: 500;
+    text-align: center;
+    margin: 12px 0;
+}
+
+@media (min-width:700px) {
+    form{
+        width: 50%;
+        margin: 110px auto 0 auto;
+    }
+
+    .login__options{
+        width:40%;
+        
+    }
+
+    form input{
+        padding: 20px;
+    }
+}

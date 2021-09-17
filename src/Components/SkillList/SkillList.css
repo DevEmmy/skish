@@ -1,0 +1,89 @@
+.container{
+    
+}
+
+.head{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    background: #800080FF;
+    color: white;
+    padding: 15px 0;
+}
+
+p{
+    font-size: 1rem;
+}
+
+h3{
+    font-size: 1.4rem;
+}
+
+.skills-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.skills-container .skill{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.skills-container .skill img{
+    width: 50%;
+}
+
+.articians{
+    width: 100%;
+    margin-top: 40px;
+}
+
+.articians h3{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.articians-content{
+    border: 1px solid gray;
+    display: flex;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.articians-content img{
+    width: 30%;
+    height: auto;
+}
+
+.details{
+    width: 68%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-details{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    padding: 5px 0;
+    box-sizing: border-box;
+}
+
+.sub-details p{
+    font-size: 12px;
+    padding: 5px 0;
+}
+
+.rank{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}

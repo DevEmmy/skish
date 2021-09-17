@@ -1,0 +1,51 @@
+.heading{
+    background: #800080FF;
+    color:white;
+    text-align: center;
+    font-size: 12px;
+    position: relative;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 15fr 1fr;
+}
+
+.heading .hamburger{
+    
+}
+
+.container{
+    margin: 20px auto;
+    width: 100%;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 12px;
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.advert{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.bottom{
+    width: 70%;
+    height: 15px;
+    border-radius: 20px;
+    background: #800080FF;
+    margin-top:15px ;
+}
+
+.top h3{
+    font-weight: 500;
+}
+
+.top p{
+    font-size: 13px;
+}

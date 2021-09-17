@@ -1,24 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import SignIn from './Components/Authentication/SignIn';
+import SignUp from './Components/Authentication/SignUp';
+import SavedArtisans from './Components/SavedArtisans/SavedArtisans';
+import Message from './Components/Message/Message';
+import SkillList from './Components/SkillList/SkillList';
+import Advert from './Components/Advert/Advert';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <SignIn /> */}
+      {/* <SignUp /> */}
+      {/* <SavedArtisans /> */}
+      {/* <Message /> */}
+      {/* <SkillList /> */}
+      <Advert />
+      
+    </>
   );
 }
 

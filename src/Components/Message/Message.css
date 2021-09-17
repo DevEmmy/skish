@@ -1,0 +1,72 @@
+.header{
+    background: #800080FF;
+    color:white;
+    text-align: center;
+    font-size: 12px;
+    position: relative;
+    padding: 20px;
+    position: relative;
+}
+
+body{
+    font-size: 3em;
+}
+
+.icon{
+    position: absolute;
+    left: 20px;
+}
+
+.message_container{
+    width: 90%;
+    margin: 20px auto;
+}
+
+.message{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.message .text{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    padding: 10px;
+
+}
+
+.message .text p{
+    font-size: 12px;
+    padding: 5px 0px 0 0;
+}
+
+h4{
+    font-size: 1.2rem;
+}
+
+h6{
+    font-size: 0.7rem;
+}
+
+.message .text .right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.message .text .right h6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    background: #800080FF;
+    text-align: center;
+    color: white;
+}

@@ -1,0 +1,90 @@
+.container{
+    padding: 25px;
+}
+
+body{
+    font-size: 3em;
+}
+
+.heading{
+    background: #800080FF;
+    color:white;
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 10px;
+    display: grid;
+    grid-template-columns:15fr 1fr;
+    align-items: center;
+}
+
+/* .heading .hamburger{
+   display: ;
+} */
+
+.search_container{
+    width: 90%;
+    margin: 20px auto;
+    background: rgb(240, 240, 240);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.search_container > input{
+    border: none;
+    background: transparent;
+    padding: 6px;
+    width: 100%;
+}
+
+.search_container > input:hover{
+    outline: none;
+}
+
+
+.articians-content{
+    border: 1px solid gray;
+    display: flex;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 90%;
+}
+
+.articians-content img{
+    width: 30%;
+    height: auto;
+}
+
+.details{
+    width: 68%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-details{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    padding: 5px 0;
+    box-sizing: border-box;
+}
+
+.sub-details p{
+    font-size: 12px;
+    padding: 5px 0;
+}
+
+.rank{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.sub-details-left h4{
+    font-size: 1rem;
+}
