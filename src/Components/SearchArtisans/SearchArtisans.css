@@ -1,0 +1,44 @@
+.sa-container header{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    align-items: center;
+    color: black;
+    padding: 10px 20px;
+}
+
+.sa-container header > h2{
+    color: #800080FF;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.search-box{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    background: rgba(200,200,200,0.3);
+    padding: 10px 15px;
+}
+
+.search-box input{
+    border: none;
+    background: none;
+    margin: 0;
+}
+
+.search-box button{
+    background: #800080FF;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+.base-text{
+    font-weight: 500;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.base-text span{
+    color: #800080FF;
+}

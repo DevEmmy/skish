@@ -1,0 +1,40 @@
+
+.user-details{
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+}
+
+.user-details .text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 12px;
+}
+
+.user-details .text h3{
+    font-size: 1rem;
+}
+
+.user-details .text p{
+    font-size: 0.7rem;
+}
+
+.dark-space{
+    width: 100%;
+    height: 1.5rem;
+    margin-top: 30px;
+    background: rgba(200,200,200,0.4);
+}
+
+
+
+.subsection ul li{
+    font-size: 1.5rem;
+    padding: 12px 30px;
+}
+
+.subsection ul li:hover{
+    background: rgba(200,200,200,0.4);
+}
